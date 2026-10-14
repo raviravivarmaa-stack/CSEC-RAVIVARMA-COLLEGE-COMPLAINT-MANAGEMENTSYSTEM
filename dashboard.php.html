@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;font-family:Segoe UI;background:#f1f5f9}
+.top{background:#1e293b;color:#fff;padding:12px 15px;display:flex;justify-content:space-between}
+.logout{background:#ef4444;color:#fff;padding:6px 12px;border-radius:5px;text-decoration:none}
+.card{background:#fff;margin:12px;padding:14px;border-radius:8px;box-shadow:0 1px 4px #0001}
+input,select,textarea{width:100%;padding:9px;margin:5px 0;border:1px solid #ccc;border-radius:5px;box-sizing:border-box}
+.btn{background:#2563eb;color:#fff;padding:9px 15px;border:none;border-radius:5px}
+</style></head><body>
+<div class="top"><div>Welcome Student (student)</div><a class="logout" href="https://bcb90f87f8fe-0af40d1f-5300.ws6.app/proxy/8080/dashboard.php?logout=1">Logout</a></div>
+
+<div class="card">
+<h3>📝 New Complaint</h3>
+<form method="POST">
+<input type="text" name="subject" placeholder="Subject" required="">
+<select name="category" required="">
+<option value="">Category</option><option>Electrical</option><option>Plumbing</option><option>WiFi</option><option>Food / Mess</option><option>Cleaning</option><option>Hostel</option><option>Other</option>
+</select>
+<div style="display:flex;gap:8px">
+<input type="text" name="hostel" placeholder="Hostel / Block" required="">
+<input type="text" name="room_no" placeholder="Room No" required="">
+</div>
+<select name="priority"><option>Medium</option><option>Low</option><option>High</option><option>Urgent</option></select>
+<textarea name="description" rows="4" placeholder="Full details" required=""></textarea>
+<button class="btn" type="submit" name="new_complaint">Submit</button>
+</form>
+</div>
+
+<div class="card">
+<b>#6 - fees paid but not update in portal [Resolved]</b><br>
+fees paid but not update in portal<br>
+<div style="font-size:12px;color:#666;margin-top:5px">
+Fees |   | </div>
+</div>
+<div class="card">
+<b>#5 - no good transportations [Pending]</b><br>
+rush<br>
+<div style="font-size:12px;color:#666;margin-top:5px">
+Transport |   | </div>
+</div>
+</body></html>
